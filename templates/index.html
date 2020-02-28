@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+  <html lang="ja">
+    <head>
+            <meta charset="utf-8">
+            <title>OwlImageClassifier</title>
+            <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet.css') }}">
+            <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    </head>
+    <form method="post" action="/send" enctype="multipart/form-data">
+      <p class="un"><font size="10">OwlImageClassifier</font></p>
+      <div class="uploadButton">
+        画像ファイルを選択してください
+        <input align="center" type="file" id="img_file" name="img_file"  accept="image/*" class="col-sm-4" onchange="uv.style.display='inline-block'; uv.value = this.value;" >
+        <input type="text" id="uv" class="uploadValue" disabled />
+
+    </div>
+    <button class="button3" align="center" type="text" name="submit">Process</button>
+    <p class="bigtitle" align="center"><font size="10">{{traintype}}</font></p>
+  </form>
+  {% if filename %}
+  <div style="display: flex; justify-content: center;">
+    <center><img src="/static/uploads/{{filename}}" style="width: 1240px; height: 780px;"></center>
+  </div>
+  {% else %}
+    <p class="bigtitle" align="center">no image</p>
+  {% endif %}
+
+   </html>

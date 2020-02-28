@@ -1,0 +1,349 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: darkslategrey;
+  margin:0px;
+  padding:0px;
+}
+
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box
+}
+
+  
+  
+  li {
+    list-style: none;
+    /* floatプロパティをleftにしてください */
+    float:left;
+    margin:0px;
+    padding:0px;
+  }
+  
+  .header {
+    background-color: #000000;
+    color: azure;
+    margin: 0px;
+    height: 62px;
+    padding: 0px;
+  }
+  
+  /* header-logoの文字の大きさを36px、floatプロパティをleftにしてください */
+  .header-logo{
+    font-size:36px;
+    color: azure;
+    float:left;
+    padding-bottom: 0px;
+    
+  }
+  
+  button.button1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-style: none;
+    color: azure;
+    background-color: black;
+
+
+  }
+
+  button.button2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-style: none;
+    color: azure;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 15px;
+    background-color: green;
+    display: block;
+    width: 100%;
+    border-radius:5em;
+
+
+
+  }
+
+  button.button3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-style: none;
+    color: azure;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 15px;
+    background-color: orange;
+    display: block;
+    width: 100%;
+    border-radius:5em;
+
+
+  }
+
+  button.button4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-style: none;
+    color: azure;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 15px;
+    background-color: green;
+    border-radius:5em;
+    left: 50%;
+
+
+
+  }
+
+  button.button5 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.0em;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-style: none;
+    color: azure;
+    display: block;
+    width: 100%;
+    background-color: blue;
+  }
+
+  button.button6 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-style: none;
+    color: azure;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 15px;
+    background-color: yellowgreen;
+    display: block;
+    width: 100%;
+
+
+
+  }
+
+  button.button7 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-style: none;
+    color: black;
+    margin-left: 5px;
+    margin-right: 15px;
+    background-color: yellow;
+    display: block;
+    width: 100%;
+
+
+
+  }
+
+
+
+  .un {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 15px 28px;
+    border-style: none;
+    color: black;
+    background-color: azure;
+    border-radius:5em;
+    text-align: center;
+  }
+
+  .input {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 15px 28px;
+    border-style: none;
+    color: black;
+    background-color: azure;
+    border-radius:5em;
+    text-align: center;
+    left: 50%;
+  }
+
+  .inputtitle{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 15px 28px;
+    border-style: none;
+    color: black;
+    background-color: azure;
+    border-radius:5em;
+    text-align: center;
+    left: 50%;
+    display: block;
+    width: 100%;
+  }
+
+  textarea{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 15px 28px;
+    border-style: none;
+    color: black;
+    background-color: azure;
+    border-radius:2em;
+    left: 50%;
+    display: block;
+    width: 100%;
+  }
+
+
+  .sign {
+    padding-top: 40px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.bigtitle{
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+  .main {
+    
+  }
+
+  .loginpage {
+    color: white;
+    display: block;
+    height: 100%;
+  }
+  
+  .container {
+    display: block;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    left: 45%;
+    display: block;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .uploadButton {
+    display:inline-block;
+    position:relative;
+    overflow:hidden;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    background:#099;
+    color:#fff;
+    text-align:center;
+    padding:10px;
+    line-height:30px;
+    width:180px;
+    border-radius:5em;
+    cursor:pointer;
+    width: 100%;
+    display: block;
+}
+.uploadButton:hover {
+    background:#0aa;
+}
+.uploadButton input[type=file] {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;    
+    cursor:pointer;
+    opacity:0;
+}
+.uploadValue {
+    display:none;
+    background:rgba(255,255,255,0.2);
+    border-radius:3px;
+    padding:3px;
+    color:#ffffff;
+}
+
+ 
+
+
+  

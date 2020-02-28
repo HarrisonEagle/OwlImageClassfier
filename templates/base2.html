@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <title>鉄道車両識別器</title>
+</head>
+
+<body>
+    <form action="/getfile" method = "POST">
+     <p><font size="10">鉄道車両識別器</font></p>
+    <p><font size="5">画像ファイルを選択してください</font></p>
+ </form>
+ </body>
+
+<body>
+   <form action="/process">
+        <dl><p><input type="file" id="img_file" name="img_file" autocomplete="off" required></p></dl>
+        <button type="submit" value="process">
+            <p><font size="5">Process</font></p>
+        </button>
+        <p><font size="10">{{traintype}}</font></p>
+        <div><img src="https://images.app.goo.gl/1BoWCLNfVADTv1ed9" style="margin-top: 10px; vertical-align: bottom; width: 300px;"></div>
+        
+   </form>  
+</body>
+
+
+
+
+
+</html>
